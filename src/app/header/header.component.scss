@@ -29,7 +29,7 @@
   
   .profile-icon {
     border-radius: 50%;
-    width: 100px;
+    width: 70px;
     height: 40px;
   }
   
@@ -59,7 +59,7 @@
   /* Media Query for Mobile */
   @media screen and (max-width: 768px) {
     .search-bar {
-      max-width: 100%;
+      max-width: 50px;
       margin-left: 10px;
     }
   

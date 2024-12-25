@@ -1,0 +1,30 @@
+.side-nav {
+    width: 250px;
+    background-color: #ffffff;
+  }
+  
+  .header-toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .profile-icon {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .mobile-menu {
+    display: none;
+  }
+  
+  @media (max-width: 768px) {
+    .mobile-menu {
+      display: inline-block;
+    }
+  
+    mat-sidenav {
+      width: 200px;
+    }
+  }
+  

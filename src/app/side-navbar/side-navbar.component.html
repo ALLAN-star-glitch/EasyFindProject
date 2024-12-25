@@ -1,0 +1,53 @@
+<mat-sidenav-container class="sidenav-container">
+    <mat-sidenav #sidenav mode="side" opened="false" class="side-nav">
+      <mat-nav-list>
+        <mat-list-item routerLink="/home">
+          <mat-icon>home</mat-icon>
+          <span>Home</span>
+        </mat-list-item>
+        <mat-list-item routerLink="/search">
+          <mat-icon>filter_list</mat-icon>
+          <span>Search Filters</span>
+        </mat-list-item>
+        <mat-list-item routerLink="/saved-listings">
+          <mat-icon>bookmark</mat-icon>
+          <span>Saved Listings</span>
+        </mat-list-item>
+        <mat-list-item routerLink="/post-listing">
+          <mat-icon>add</mat-icon>
+          <span>Post Listing</span>
+        </mat-list-item>
+        <mat-list-item routerLink="/profile">
+          <mat-icon>person</mat-icon>
+          <span>My Profile</span>
+        </mat-list-item>
+        <mat-list-item routerLink="/messages">
+          <mat-icon>chat</mat-icon>
+          <span>Messages</span>
+        </mat-list-item>
+        <mat-list-item routerLink="/notifications">
+          <mat-icon>notifications</mat-icon>
+          <span>Notifications</span>
+        </mat-list-item>
+        <mat-list-item routerLink="/payments">
+          <mat-icon>credit_card</mat-icon>
+          <span>Payments</span>
+        </mat-list-item>
+        <mat-list-item routerLink="/help">
+          <mat-icon>help_outline</mat-icon>
+          <span>Help & Support</span>
+        </mat-list-item>
+        <mat-list-item routerLink="/settings">
+          <mat-icon>settings</mat-icon>
+          <span>Settings</span>
+        </mat-list-item>
+        <mat-list-item routerLink="/logout">
+          <mat-icon>exit_to_app</mat-icon>
+          <span>Logout</span>
+        </mat-list-item>
+      </mat-nav-list>
+    </mat-sidenav>
+    <mat-sidenav-content>
+      <!-- Main content goes here -->
+    </mat-sidenav-content>
+  </mat-sidenav-container>
