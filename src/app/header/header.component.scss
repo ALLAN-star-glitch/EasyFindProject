@@ -1,0 +1,74 @@
+/* Header styles */
+.header-toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Vertically aligns items */
+    padding: 0 16px;
+    height: 64px; /* Optional: Set a consistent header height */
+  }
+  
+  .logo {
+    font-weight: bold;
+    font-size: 24px;
+    color: #fff; /* Text color from primary theme */
+  }
+  
+  .search-bar {
+    flex-grow: 1;
+    max-width: 400px; /* Optional: Limit the size of the search bar */
+    margin: 0 auto; /* Centers the search bar horizontally */
+    display: flex; 
+    justify-content: center; /* Centers the content inside the search bar */
+}
+  
+  .actions {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .profile-icon {
+    border-radius: 50%;
+    width: 100px;
+    height: 40px;
+  }
+  
+  .post-listing {
+    padding: 8px 16px;
+  }
+  
+  .badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .mobile-menu {
+    display: none;
+  }
+  
+  /* Media Query for Mobile */
+  @media screen and (max-width: 768px) {
+    .search-bar {
+      max-width: 100%;
+      margin-left: 10px;
+    }
+  
+    .actions {
+      display: none; /* Hide actions on mobile */
+    }
+  
+    .mobile-menu {
+      display: block;
+    }
+  }
+  

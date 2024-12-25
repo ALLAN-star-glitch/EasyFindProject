@@ -1,0 +1,50 @@
+<header class="mat-elevation-z4">
+  <!-- Angular Material Toolbar for header -->
+  <mat-toolbar color="primary" class="header-toolbar">
+    <!-- Left side - Logo or Branding -->
+    <div class="logo">
+      <span class="mat-h2">EasyFind</span>
+    </div>
+
+    <!-- Search Bar using Bootstrap -->
+    <div class="search-bar mx-auto">
+      <form class="input-group">
+        <input 
+          type="text" 
+          class="form-control" 
+          placeholder="Search for listings..." 
+          aria-label="Search Listings"
+        />
+        <button 
+          class="btn btn-outline-light" 
+          type="button">
+          <mat-icon>search</mat-icon>
+        </button>
+      </form>
+    </div>
+
+    <!-- Right side - Notifications, Profile, and Post Listing -->
+    <div class="actions d-flex align-items-center">
+      <!-- Notifications Icon -->
+      <button mat-icon-button color="accent" class="me-3">
+        <mat-icon>notifications</mat-icon>
+        <span class="badge bg-danger">3</span> <!-- Bootstrap Badge -->
+      </button>
+
+      <!-- Profile Icon -->
+      <button mat-icon-button class="me-3">
+        <img src="assets/profile.png" alt="Profile" class="profile-icon rounded-circle" style="width: 40px; height: 40px;">
+      </button>
+
+      <!-- Post Listing Button -->
+      <button mat-raised-button color="accent" class="post-listing btn btn-light">
+        Post Listing
+      </button>
+
+      <!-- Mobile Hamburger Icon -->
+      <button mat-icon-button class="mobile-menu ms-3">
+        <mat-icon>menu</mat-icon>
+      </button>
+    </div>
+  </mat-toolbar>
+</header>
